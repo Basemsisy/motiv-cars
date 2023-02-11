@@ -29,6 +29,7 @@ module.exports = {
           6: "#242731",
           7: "#F5F5F5",
           8: "#F3F5F8",
+          9: "#F5F4F6",
         },
       },
       fontSize: {
