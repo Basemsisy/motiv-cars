@@ -4,7 +4,7 @@ import Logo from "src/components/atoms/Logo/Logo";
 
 const Sidebar = () => {
   return (
-    <aside className="sidebar flex flex-col h-[100%] fixed w-[248px] bg-white py-[30px] px-6 pr-[50px]">
+    <aside className="sidebar flex flex-col h-[100%] fixed w-[248px] translate-x-[-248px] md:translate-x-[0] bg-white py-[30px] px-6 pr-[50px]">
       <Logo />
       <div className="list-items flex flex-col flex-1 justify-between">
         <ul className="top-list">
