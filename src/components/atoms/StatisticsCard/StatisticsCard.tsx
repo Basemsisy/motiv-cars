@@ -6,7 +6,7 @@ import { TRANSPARENT_WHITE_COLOR, WHITE_COLOR } from "src/constants";
 import "react-circular-progressbar/dist/styles.css";
 
 interface StatisticsCardProps {
-  icon: string;
+  icon?: string;
   title: string;
   color: string;
   percentage: number;
