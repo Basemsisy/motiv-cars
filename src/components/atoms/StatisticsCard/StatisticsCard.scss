@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .StatisticsCard {
+    @apply h-[266px] py-[20px] px-[60px] rounded-[14px] flex items-center flex-col  transition-all hover:text-white;
+
+    &__Icon {
+      @apply w-[38px] h-[38px] flex items-center justify-center rounded-full;
+    }
+    &__Title {
+      @apply text-2xl font-bold capitalize mt-[10px] mb-[30px];
+    }
+    &__Chart {
+      @apply w-[112px] h-[112px];
+    }
+  }
+}
