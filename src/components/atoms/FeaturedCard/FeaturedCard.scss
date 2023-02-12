@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .FeaturedCard {
+    @apply flex flex-col rounded-[14px] py-[15px] px-[27px];
+    &__Header {
+      @apply flex gap-3 items-center;
+    }
+    &__Img {
+      @apply mt-[13px] mb-[11px];
+    }
+    &__Title {
+      @apply font-bold text-xl leading-6 mb-[9px];
+    }
+    &__Footer {
+      @apply flex justify-between items-center;
+    }
+  }
+}
